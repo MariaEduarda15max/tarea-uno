@@ -1,0 +1,38 @@
+nav {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 8%;
+    position: relative;
+    top: 20px;
+}
+nav a {
+    text-decoration: none;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly; 
+    gap: 5em;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 2em; /* espacio entre columnas, opcional */
+  justify-content: space-evenly; 
+  border-style: groove;
+  border-width: 1em;
+  border-color: aquamarine;
+}
+.current {
+    text-transform: uppercase;
+    background-color: color-mix(in srgb, lightgrey 25%, lightpink 75%);
+}
+.grid img {
+    width: 50%;
+}
